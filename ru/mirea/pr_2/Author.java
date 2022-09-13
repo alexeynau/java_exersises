@@ -16,6 +16,6 @@ public class Author {
     public String getName() { return name; }
     public String getEmail() { return email; }
     public char getGender() { return gender; }
-
+    @Override
     public String toString() { return "Name: " + name + "\nE-mail: " + email + "\nGender: " + gender; }
 }
