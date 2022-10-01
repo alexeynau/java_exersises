@@ -1,7 +1,5 @@
 package ru.mirea.lab_1;
 
-import java.util.Random;
-
 public class Array {
     private int[] array;
     private int n;
@@ -17,7 +15,7 @@ public class Array {
     public String toString() {
         String series = String.valueOf(array[0]);
         for (int i = 1; i < n; i++) {
-            series += ", " + String.valueOf(array[i]);
+            series += ", " + array[i];
         }
         return "Array: " + series;
     }

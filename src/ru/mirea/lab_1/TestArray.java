@@ -1,7 +1,5 @@
 package ru.mirea.lab_1;
 
-import java.net.Socket;
-
 public class TestArray {
     public static void main(String[] args) {
         Array arr = new Array(10);
